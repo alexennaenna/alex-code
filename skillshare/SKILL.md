@@ -9,6 +9,7 @@ description: |
 argument-hint: "[command] [target] [--json] [--dry-run] [-p|-g]"
 metadata:
   version: v0.21.4
+  targets: [qoder, universal]
 ---
 
 # Skillshare CLI
