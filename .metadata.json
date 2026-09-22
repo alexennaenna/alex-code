@@ -1,6 +1,94 @@
 {
   "version": 1,
   "entries": {
+    "code-quality-review": {
+      "source": "https://git.aispeech.com.cn/sst/agent-skills.git/skills/code-quality-review",
+      "type": "git-https-subdir",
+      "installed_at": "2026-09-22T13:48:57.165689159+08:00",
+      "repo_url": "https://git.aispeech.com.cn/sst/agent-skills.git",
+      "subdir": "skills/code-quality-review",
+      "version": "64c73ce",
+      "tree_hash": "505e5f2d7293c0ca21cbd5bf9ba4420fb656b029",
+      "commit": "64c73ce5a254de182a3f90d9f7209ae8a770cb5e",
+      "file_hashes": {
+        "SKILL.md": "sha256:704011e4fa75053f36b0bca420c891f90b00285846388f7cccf8418f5850f64a",
+        "agents/openai.yaml": "sha256:7354d3bac389430509e6be5c3f7cf422f90975830cad813633c65b86af94ddbc"
+      }
+    },
+    "dui-alexa-project-delivery": {
+      "source": "https://git.aispeech.com.cn/sst/agent-skills.git/skills/dui-alexa-project-delivery",
+      "type": "git-https-subdir",
+      "installed_at": "2026-09-22T13:48:57.185479429+08:00",
+      "repo_url": "https://git.aispeech.com.cn/sst/agent-skills.git",
+      "subdir": "skills/dui-alexa-project-delivery",
+      "version": "64c73ce",
+      "tree_hash": "99aa1efb4299b77314f5a44243b5739213962b0d",
+      "commit": "64c73ce5a254de182a3f90d9f7209ae8a770cb5e",
+      "file_hashes": {
+        "SKILL.md": "sha256:342907a69455c2aa5540067d4300bd96dfc8c9961b3a9adbd390f61bd96a2036",
+        "agents/openai.yaml": "sha256:35bd34b8d7f9d8b154929aab567e78beaadc41911f4b045d6f956b037bf637eb"
+      }
+    },
+    "dui-android-project-config": {
+      "source": "https://git.aispeech.com.cn/sst/agent-skills.git/skills/dui-android-project-config",
+      "type": "git-https-subdir",
+      "installed_at": "2026-09-22T13:48:57.218643502+08:00",
+      "repo_url": "https://git.aispeech.com.cn/sst/agent-skills.git",
+      "subdir": "skills/dui-android-project-config",
+      "version": "64c73ce",
+      "tree_hash": "66246aaeea32de140e3536ad4c3b37686ac6c82d",
+      "commit": "64c73ce5a254de182a3f90d9f7209ae8a770cb5e",
+      "file_hashes": {
+        "SKILL.md": "sha256:554c5c9a84834ecafde6f067cbe810d5dde657fb530891199b27ae460a4d2c5d",
+        "agents/openai.yaml": "sha256:9878558740c89ac5380bdff7c39654d4fcfbe4eecdfc6a94a78515c4c67e674e",
+        "references/repo-layout.md": "sha256:44d4ea32a20a8c470a36bdf3a9818921cc92f23a9a2f06724b7fa12f51d4dd0e",
+        "scripts/prepare_android_project.py": "sha256:0ead65deeabf101c777c614b8e97cacf0a8bf20b6c10911fc71e634523beec15"
+      }
+    },
+    "dui-linux-project-config": {
+      "source": "https://git.aispeech.com.cn/sst/agent-skills.git/skills/dui-linux-project-config",
+      "type": "git-https-subdir",
+      "installed_at": "2026-09-22T13:48:57.244683024+08:00",
+      "repo_url": "https://git.aispeech.com.cn/sst/agent-skills.git",
+      "subdir": "skills/dui-linux-project-config",
+      "version": "64c73ce",
+      "tree_hash": "024863c144dc32918dad3be2ab85e30f06a14e0f",
+      "commit": "64c73ce5a254de182a3f90d9f7209ae8a770cb5e",
+      "file_hashes": {
+        "SKILL.md": "sha256:21632f12b8a780aa605b40ecdd461a20b9d3abf117e0cc8f556f4160ef8883db",
+        "agents/openai.yaml": "sha256:4470b4b1fe2452f90725adaecb6176fa28f988d495de78c84beffb6211ea4006",
+        "references/repo-layout.md": "sha256:8ff07c6c4de2ca1e457b0623ac33d419b94deaafa30df62586712c4454540bce",
+        "scripts/prepare_dui_project.py": "sha256:f01617a57c12a1273d534dfc5f66ca322deaf9bf6678a03bffd47efb8e22d7f6"
+      }
+    },
+    "git-commit": {
+      "source": "https://git.aispeech.com.cn/sst/agent-skills.git/skills/git-commit",
+      "type": "git-https-subdir",
+      "installed_at": "2026-09-22T13:48:57.2611086+08:00",
+      "repo_url": "https://git.aispeech.com.cn/sst/agent-skills.git",
+      "subdir": "skills/git-commit",
+      "version": "64c73ce",
+      "tree_hash": "705b8bf2a51bdcd7e188b9fef73c669afe550cc5",
+      "commit": "64c73ce5a254de182a3f90d9f7209ae8a770cb5e",
+      "file_hashes": {
+        "SKILL.md": "sha256:f52e313ee4a66c20d647f9e716bac37a78821d7d1d9bb4117e26efff3caf03bb",
+        "agents/openai.yaml": "sha256:b11b52bb1cc6b2e4b345dcb2ff6ae70a76bca8b5279742199df643a6a8bf9ad5"
+      }
+    },
+    "hisense-version-update": {
+      "source": "https://git.aispeech.com.cn/sst/agent-skills.git/skills/hisense-version-update",
+      "type": "git-https-subdir",
+      "installed_at": "2026-09-22T13:48:57.279347256+08:00",
+      "repo_url": "https://git.aispeech.com.cn/sst/agent-skills.git",
+      "subdir": "skills/hisense-version-update",
+      "version": "64c73ce",
+      "tree_hash": "eb1c0664aad4cf7ee9641267e808db7b20105aa3",
+      "commit": "64c73ce5a254de182a3f90d9f7209ae8a770cb5e",
+      "file_hashes": {
+        "SKILL.md": "sha256:8d6ae36acdc6fd85d1eb600a728ccd89af1fd0295ae064d4e585c2bf1b425cea",
+        "agents/openai.yaml": "sha256:c2979e62f928624c6f74e4dbcdddf102572148755ed6305e33224074ce93b756"
+      }
+    },
     "skillshare": {
       "source": "github.com/runkids/skillshare/skills/skillshare",
       "type": "github-subdir",

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Git Commit"
+  short_description: "Commit all tracked Git changes without editing files"
+  default_prompt: "Use $git-commit to inspect changes read-only, reply in Chinese, commit every tracked workspace change without editing files, and leave untracked files untouched."

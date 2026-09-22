@@ -1,0 +1,4 @@
+interface:
+  display_name: "代码质量审查"
+  short_description: "在内置代码审查上检查代码复用、版本更新、文档覆盖与必要注释"
+  default_prompt: "使用 $code-quality-review 审查当前代码变更，重点检查复用、版本号、文档与必要注释。"

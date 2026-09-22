@@ -1,0 +1,6 @@
+interface:
+  display_name: "DUI Alexa Project Delivery"
+  short_description: "Build SSPE, audio HAL, and release package"
+  default_prompt: "Use $dui-alexa-project-delivery to deliver the requested Hisense Alexa project from SDK update through the final verified release package."
+policy:
+  allow_implicit_invocation: true

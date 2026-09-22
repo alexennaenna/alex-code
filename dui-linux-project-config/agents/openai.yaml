@@ -1,0 +1,4 @@
+interface:
+  display_name: "DUI Linux Project Config"
+  short_description: "Create dui-apis-demo-linux project configs from SDK deliveries."
+  default_prompt: "Create or update a dui-apis-demo-linux project configuration from a delivered SDK and assets."
